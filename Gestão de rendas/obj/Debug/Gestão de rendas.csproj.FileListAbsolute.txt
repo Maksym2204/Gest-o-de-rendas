@@ -1,0 +1,8 @@
+D:\LESI\2ºano\Gestão de rendas\Gestão de rendas\bin\Debug\Gestão de rendas.exe.config
+D:\LESI\2ºano\Gestão de rendas\Gestão de rendas\bin\Debug\Gestão de rendas.exe
+D:\LESI\2ºano\Gestão de rendas\Gestão de rendas\bin\Debug\Gestão de rendas.pdb
+D:\LESI\2ºano\Gestão de rendas\Gestão de rendas\obj\Debug\Gestão de rendas.csproj.AssemblyReference.cache
+D:\LESI\2ºano\Gestão de rendas\Gestão de rendas\obj\Debug\Gestão de rendas.csproj.SuggestedBindingRedirects.cache
+D:\LESI\2ºano\Gestão de rendas\Gestão de rendas\obj\Debug\Gestão de rendas.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Gestão de rendas\obj\Debug\Gestão de rendas.exe
+D:\LESI\2ºano\Gestão de rendas\Gestão de rendas\obj\Debug\Gestão de rendas.pdb

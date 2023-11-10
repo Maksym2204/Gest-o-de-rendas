@@ -1,0 +1,15 @@
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\bin\Debug\net7.0\GestaoDeContratos.deps.json
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\bin\Debug\net7.0\GestaoDeContratos.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\bin\Debug\net7.0\GestaoDeContratos.pdb
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\bin\Debug\net7.0\GestaoDeImoveis.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\bin\Debug\net7.0\GestaoDeImoveis.pdb
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\GestaoDeContratos.csproj.AssemblyReference.cache
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\GestaoDeContratos.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\GestaoDeContratos.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\GestaoDeContratos.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\GestaoDeContratos.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\GestaoDeContratos.csproj.CopyComplete
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\GestaoDeContratos.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\refint\GestaoDeContratos.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\GestaoDeContratos.pdb
+D:\LESI\2ºano\Gestão de rendas\GestaoDeContratos\obj\Debug\net7.0\ref\GestaoDeContratos.dll

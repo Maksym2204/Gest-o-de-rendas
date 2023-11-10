@@ -1,0 +1,5 @@
+D:\LESI\2ºano\Gestão de rendas\Gestão de Imoveis\obj\Debug\net6.0\Gestão de Imoveis.csproj.AssemblyReference.cache
+D:\LESI\2ºano\Gestão de rendas\Gestão de Imoveis\obj\Debug\net6.0\Gestão de Imoveis.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\Gestão de Imoveis\obj\Debug\net6.0\Gestão de Imoveis.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Gestão de Imoveis\obj\Debug\net6.0\Gestão de Imoveis.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\Gestão de Imoveis\obj\Debug\net6.0\Gestão de Imoveis.csproj.CoreCompileInputs.cache

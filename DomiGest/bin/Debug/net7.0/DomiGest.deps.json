@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DomiGest/1.0.0": {
+        "dependencies": {
+          "GestaoDeContratos": "1.0.0",
+          "GestaoDeImoveis": "1.0.0"
+        },
+        "runtime": {
+          "DomiGest.dll": {}
+        }
+      },
+      "GestaoDeContratos/1.0.0": {
+        "dependencies": {
+          "GestaoDeImoveis": "1.0.0"
+        },
+        "runtime": {
+          "GestaoDeContratos.dll": {}
+        }
+      },
+      "GestaoDeImoveis/1.0.0": {
+        "runtime": {
+          "GestaoDeImoveis.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DomiGest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoDeContratos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoDeImoveis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
