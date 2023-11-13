@@ -1,17 +1,33 @@
-﻿using GestaoDeImoveis;
+﻿/*
+ * 
+ * criacao das funcoes relativas a class contrato em C#
+ * Mario Macedo
+ * Maksym Yavorenko
+ * a25664@alunos.ipca.pt
+ * a25989@alunos.ipca.pt
+ * 13-11-2023
+ * 
+ * */
+
+using GestaoDeImoveis;
 
 namespace GestaoDeContratos
 {
     public static class OperacoesContrato
     {
-        // Função para adicionar um novo contrato
+        #region Funcoes
+        /// <summary>
+        /// Função para adicionar um novo contrato
+        /// </summary>
+        /// <param name="contratos"></param>
+        /// <param name="imoveis"></param>
         public static void AdicionarContrato(List<Contrato> contratos, List<Imovel> imoveis)
         {
             Console.WriteLine("Adicionar contrato");
             Console.Write("ID do imóvel: ");
             int idImovel = int.Parse(Console.ReadLine());
 
-            // Verifica se o ID do imóvel é válido
+            /// Verifica se o ID do imóvel é válido
             if (idImovel < 0 || idImovel >= imoveis.Count)
             {
                 Console.WriteLine("ID do imóvel inválido!");
@@ -35,17 +51,22 @@ namespace GestaoDeContratos
             Contrato contrato = new Contrato(imovel, dataInicio, dataFim, inquilino, valorMensal);
             contratos.Add(contrato);
 
-            // Atualiza o estado do imóvel para alugado
+            /// Atualiza o estado do imóvel para alugado
             imovel.Estado = false;
 
             Console.WriteLine("Contrato adicionado com sucesso!");
+            Console.WriteLine("Pressione enter para continuar...");
+            Console.ReadKey();
+            Console.Clear();
         }
 
-        // Função para listar todos os Contratos
+        /// <summary>
+        /// Função para listar todos os Contratos
+        /// </summary>
+        /// <param name="contratos"></param>
         public static void ListarContratos(this List<Contrato> contratos)
         {
             Console.WriteLine("Lista de Contratos");
-            Console.WriteLine("------------------");
 
             foreach (Contrato contrato in contratos)
             {
@@ -58,5 +79,6 @@ namespace GestaoDeContratos
                 Console.WriteLine();
             }
         }
+        #endregion
     }
 }
