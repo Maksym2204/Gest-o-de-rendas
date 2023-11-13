@@ -18,3 +18,23 @@ D:\LESI\2ºano\Gestão de rendas\DomiGest\obj\Debug\net7.0\DomiGest.genruntimeco
 D:\LESI\2ºano\Gestão de rendas\DomiGest\obj\Debug\net7.0\ref\DomiGest.dll
 D:\LESI\2ºano\Gestão de rendas\DomiGest\bin\Debug\net7.0\GestaoDeContratos.dll
 D:\LESI\2ºano\Gestão de rendas\DomiGest\bin\Debug\net7.0\GestaoDeContratos.pdb
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\bin\Debug\net7.0\DomiGest.exe
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\bin\Debug\net7.0\DomiGest.deps.json
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\bin\Debug\net7.0\DomiGest.runtimeconfig.json
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\bin\Debug\net7.0\DomiGest.dll
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\bin\Debug\net7.0\DomiGest.pdb
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\bin\Debug\net7.0\GestaoDeContratos.dll
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\bin\Debug\net7.0\GestaoDeImoveis.dll
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\bin\Debug\net7.0\GestaoDeContratos.pdb
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\bin\Debug\net7.0\GestaoDeImoveis.pdb
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.csproj.AssemblyReference.cache
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.AssemblyInfoInputs.cache
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.AssemblyInfo.cs
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.csproj.CoreCompileInputs.cache
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.csproj.CopyComplete
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.dll
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\refint\DomiGest.dll
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.pdb
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.genruntimeconfig.cache
+C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\ref\DomiGest.dll

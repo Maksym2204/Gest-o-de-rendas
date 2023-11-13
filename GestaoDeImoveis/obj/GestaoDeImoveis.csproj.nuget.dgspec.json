@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LESI\\2ºano\\Gestão de rendas\\GestaoDeImoveis\\GestaoDeImoveis.csproj": {}
+    "C:\\Users\\maroc\\OneDrive\\Documentos\\GitHub\\Gestao-de-rendas\\GestaoDeImoveis\\GestaoDeImoveis.csproj": {}
   },
   "projects": {
-    "D:\\LESI\\2ºano\\Gestão de rendas\\GestaoDeImoveis\\GestaoDeImoveis.csproj": {
+    "C:\\Users\\maroc\\OneDrive\\Documentos\\GitHub\\Gestao-de-rendas\\GestaoDeImoveis\\GestaoDeImoveis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LESI\\2ºano\\Gestão de rendas\\GestaoDeImoveis\\GestaoDeImoveis.csproj",
+        "projectUniqueName": "C:\\Users\\maroc\\OneDrive\\Documentos\\GitHub\\Gestao-de-rendas\\GestaoDeImoveis\\GestaoDeImoveis.csproj",
         "projectName": "GestaoDeImoveis",
-        "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\GestaoDeImoveis\\GestaoDeImoveis.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\LESI\\2ºano\\Gestão de rendas\\GestaoDeImoveis\\obj\\",
+        "projectPath": "C:\\Users\\maroc\\OneDrive\\Documentos\\GitHub\\Gestao-de-rendas\\GestaoDeImoveis\\GestaoDeImoveis.csproj",
+        "packagesPath": "C:\\Users\\maroc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maroc\\OneDrive\\Documentos\\GitHub\\Gestao-de-rendas\\GestaoDeImoveis\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\maroc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
