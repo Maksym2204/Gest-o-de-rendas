@@ -1,8 +1,23 @@
-﻿namespace GestaoDeImoveis
+﻿/*
+ * 
+ * criacao das funcoes relativas a class imovel em C#
+ * Mario Macedo
+ * Maksym Yavorenko
+ * a25664@alunos.ipca.pt
+ * a25989@alunos.ipca.pt
+ * 13-11-2023
+ * 
+ * */
+
+namespace GestaoDeImoveis
 {
     public static class OperacoesImoveis
     {
-        // Função de extenção da lista para adicionar um novo imóvel
+        #region Funcoes
+        /// <summary>
+        /// Função de extenção da lista para adicionar um novo imóvel
+        /// </summary>
+        /// <param name="imoveis"></param>
         public static void AdicionarImovel(this List<Imovel> imoveis)
         {
             Console.WriteLine("Adicionar imóvel");
@@ -17,13 +32,18 @@
             imoveis.Add(imovel);
 
             Console.WriteLine("Imóvel adicionado com sucesso!");
+            Console.WriteLine("Pressione enter para continuar...");
+            Console.ReadKey();
+            Console.Clear();
         }
 
-        // Função para listar todos os imóveis
+        /// <summary>
+        /// Função para listar todos os imóveis
+        /// </summary>
+        /// <param name="imoveis"></param>
         public static void ListarImoveis(this List<Imovel> imoveis)
         {
             Console.WriteLine("Lista de imóveis");
-            Console.WriteLine("-----------------");
 
             foreach (Imovel imovel in imoveis)
             {
@@ -34,5 +54,6 @@
                 Console.WriteLine();
             }
         }
+        #endregion
     }
 }
