@@ -1,0 +1,12 @@
+D:\LESI\2ºano\Gestão de rendas\Despesas\bin\Debug\net7.0\Despesas.deps.json
+D:\LESI\2ºano\Gestão de rendas\Despesas\bin\Debug\net7.0\Despesas.dll
+D:\LESI\2ºano\Gestão de rendas\Despesas\bin\Debug\net7.0\Despesas.pdb
+D:\LESI\2ºano\Gestão de rendas\Despesas\obj\Debug\net7.0\Despesas.csproj.AssemblyReference.cache
+D:\LESI\2ºano\Gestão de rendas\Despesas\obj\Debug\net7.0\Despesas.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\Despesas\obj\Debug\net7.0\Despesas.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Despesas\obj\Debug\net7.0\Despesas.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\Despesas\obj\Debug\net7.0\Despesas.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Despesas\obj\Debug\net7.0\Despesas.dll
+D:\LESI\2ºano\Gestão de rendas\Despesas\obj\Debug\net7.0\refint\Despesas.dll
+D:\LESI\2ºano\Gestão de rendas\Despesas\obj\Debug\net7.0\Despesas.pdb
+D:\LESI\2ºano\Gestão de rendas\Despesas\obj\Debug\net7.0\ref\Despesas.dll

@@ -1,0 +1,12 @@
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\bin\Debug\net7.0\Inquilinos.deps.json
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\bin\Debug\net7.0\Inquilinos.dll
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\bin\Debug\net7.0\Inquilinos.pdb
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\obj\Debug\net7.0\Inquilinos.csproj.AssemblyReference.cache
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\obj\Debug\net7.0\Inquilinos.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\obj\Debug\net7.0\Inquilinos.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\obj\Debug\net7.0\Inquilinos.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\obj\Debug\net7.0\Inquilinos.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\obj\Debug\net7.0\Inquilinos.dll
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\obj\Debug\net7.0\refint\Inquilinos.dll
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\obj\Debug\net7.0\Inquilinos.pdb
+D:\LESI\2ºano\Gestão de rendas\Inquilinos\obj\Debug\net7.0\ref\Inquilinos.dll

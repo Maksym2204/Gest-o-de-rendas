@@ -9,7 +9,7 @@
  * 
  * */
 
-namespace GestaoDeImoveis
+namespace Imoveis
 {
     /// <summary>
     /// Classe para representar um imóvel
@@ -17,18 +17,50 @@ namespace GestaoDeImoveis
     public class Imovel
     {
         #region Atributos
-        public string Tipo { get; set; }
-        public string Endereco { get; set; }
-        public double RendaMensal { get; set; }
-        public bool Estado { get; set; }
+
+        private string tipo;
+        private string endereco;
+        private double rendaMensal;
+        private bool estado;
+
         #endregion
+
+        #region Propriedades
+
+        public string Tipo
+        {
+            get { return tipo; }
+            set { tipo = value; }
+        }
+
+        public string Endereco
+        {
+            get { return endereco; }
+            set { endereco = value; }
+        }
+
+        public double RendaMensal
+        {
+            get { return rendaMensal; }
+            set { rendaMensal = value; }
+        }
+
+        public bool Estado
+        {
+            get { return estado; }
+            set { estado = value; }
+        }
+
+        #endregion
+
+        #region Construtor
+
         /// <summary>
         /// Construtor da classe Imovel
         /// </summary>
         /// <param name="tipo"></param>
         /// <param name="endereco"></param>
         /// <param name="rendaMensal"></param>
-        #region Construtor
         public Imovel(string tipo, string endereco, double rendaMensal)
         {
             Tipo = tipo;
@@ -36,6 +68,7 @@ namespace GestaoDeImoveis
             RendaMensal = rendaMensal;
             Estado = true; /// Imóvel está disponível para aluguer inicialmente
         }
+
         #endregion
     }
 }

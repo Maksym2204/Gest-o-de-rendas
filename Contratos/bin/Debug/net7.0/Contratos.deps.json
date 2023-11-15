@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Contratos/1.0.0": {
+        "dependencies": {
+          "Imoveis": "1.0.0"
+        },
+        "runtime": {
+          "Contratos.dll": {}
+        }
+      },
+      "Imoveis/1.0.0": {
+        "runtime": {
+          "Imoveis.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contratos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Imoveis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

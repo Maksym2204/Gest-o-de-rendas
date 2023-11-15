@@ -1,0 +1,349 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "EntityFramework/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/EntityFramework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Caracterizaçao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Caracterizaçao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Caracterizaçao.dll": {}
+        }
+      },
+      "Clientes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PagamentoEntrada": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clientes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clientes.dll": {}
+        }
+      },
+      "Despesas/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Despesas.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Despesas.dll": {}
+        }
+      },
+      "Documentos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Documentos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Documentos.dll": {}
+        }
+      },
+      "Gestores/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Despesas": "1.0.0",
+          "Recibos": "1.0.0",
+          "Serviços": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Gestores.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gestores.dll": {}
+        }
+      },
+      "Imoveis/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Caracterizaçao": "1.0.0",
+          "Clientes": "1.0.0",
+          "Documentos": "1.0.0",
+          "EntityFramework": "5.0.0",
+          "Gestores": "1.0.0",
+          "Locais": "1.0.0",
+          "Prestaçoes": "1.0.0",
+          "Senhorios": "1.0.0",
+          "TiposImoveis": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Imoveis.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Imoveis.dll": {}
+        }
+      },
+      "Locais/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Locais.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Locais.dll": {}
+        }
+      },
+      "PagamentoEntrada/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PagamentoEntrada.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PagamentoEntrada.dll": {}
+        }
+      },
+      "Prestaçoes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Prestaçoes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prestaçoes.dll": {}
+        }
+      },
+      "Recibos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Recibos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Recibos.dll": {}
+        }
+      },
+      "Senhorios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Senhorios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Senhorios.dll": {}
+        }
+      },
+      "Serviços/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Serviços.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Serviços.dll": {}
+        }
+      },
+      "TiposImoveis/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TiposImoveis.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TiposImoveis.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntityFramework/5.0.0": {
+      "sha512": "WYfgJWKg/RjwU8pzZkImD9DsV+J1nqDcIGp1S0/bdnElKBmAaUC2nmq/QQAcco32KyQQWnLgJNiDzIOz2xWFbQ==",
+      "type": "package",
+      "path": "entityframework/5.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/App.config.transform",
+        "Content/Web.config.transform",
+        "entityframework.5.0.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PS3.psd1",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/Redirect.VS11.config",
+        "tools/Redirect.config",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
+    "Caracterizaçao/1.0.0": {
+      "type": "project",
+      "path": "../Caracterização/Caracterizaçao.csproj",
+      "msbuildProject": "../Caracterização/Caracterizaçao.csproj"
+    },
+    "Clientes/1.0.0": {
+      "type": "project",
+      "path": "../Clientes/Clientes.csproj",
+      "msbuildProject": "../Clientes/Clientes.csproj"
+    },
+    "Despesas/1.0.0": {
+      "type": "project",
+      "path": "../Despesas/Despesas.csproj",
+      "msbuildProject": "../Despesas/Despesas.csproj"
+    },
+    "Documentos/1.0.0": {
+      "type": "project",
+      "path": "../Decumentos/Documentos.csproj",
+      "msbuildProject": "../Decumentos/Documentos.csproj"
+    },
+    "Gestores/1.0.0": {
+      "type": "project",
+      "path": "../Gestores/Gestores.csproj",
+      "msbuildProject": "../Gestores/Gestores.csproj"
+    },
+    "Imoveis/1.0.0": {
+      "type": "project",
+      "path": "../Imoveis/Imoveis.csproj",
+      "msbuildProject": "../Imoveis/Imoveis.csproj"
+    },
+    "Locais/1.0.0": {
+      "type": "project",
+      "path": "../Localizaçoes/Locais.csproj",
+      "msbuildProject": "../Localizaçoes/Locais.csproj"
+    },
+    "PagamentoEntrada/1.0.0": {
+      "type": "project",
+      "path": "../PagamentoEntrada/PagamentoEntrada.csproj",
+      "msbuildProject": "../PagamentoEntrada/PagamentoEntrada.csproj"
+    },
+    "Prestaçoes/1.0.0": {
+      "type": "project",
+      "path": "../Prestaçoes/Prestaçoes.csproj",
+      "msbuildProject": "../Prestaçoes/Prestaçoes.csproj"
+    },
+    "Recibos/1.0.0": {
+      "type": "project",
+      "path": "../Recibos/Recibos.csproj",
+      "msbuildProject": "../Recibos/Recibos.csproj"
+    },
+    "Senhorios/1.0.0": {
+      "type": "project",
+      "path": "../Senhorios/Senhorios.csproj",
+      "msbuildProject": "../Senhorios/Senhorios.csproj"
+    },
+    "Serviços/1.0.0": {
+      "type": "project",
+      "path": "../Serviços/Serviços.csproj",
+      "msbuildProject": "../Serviços/Serviços.csproj"
+    },
+    "TiposImoveis/1.0.0": {
+      "type": "project",
+      "path": "../TiposImoveis/TiposImoveis.csproj",
+      "msbuildProject": "../TiposImoveis/TiposImoveis.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Imoveis >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\MSI\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\LESI\\2ºano\\Gestão de rendas\\Contratos\\Contratos.csproj",
+      "projectName": "Contratos",
+      "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Contratos\\Contratos.csproj",
+      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
+      "outputPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Contratos\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\LESI\\2ºano\\Gestão de rendas\\Imoveis\\Imoveis.csproj": {
+              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Imoveis\\Imoveis.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'EntityFramework 5.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

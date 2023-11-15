@@ -1,0 +1,12 @@
+D:\LESI\2ºano\Gestão de rendas\Imoveis\bin\Debug\net7.0\Imoveis.deps.json
+D:\LESI\2ºano\Gestão de rendas\Imoveis\bin\Debug\net7.0\Imoveis.dll
+D:\LESI\2ºano\Gestão de rendas\Imoveis\bin\Debug\net7.0\Imoveis.pdb
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.csproj.AssemblyReference.cache
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.dll
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\refint\Imoveis.dll
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.pdb
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\ref\Imoveis.dll

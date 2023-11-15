@@ -1,0 +1,12 @@
+D:\LESI\2ºano\Gestão de rendas\Clientes\bin\Debug\net7.0\Clientes.deps.json
+D:\LESI\2ºano\Gestão de rendas\Clientes\bin\Debug\net7.0\Clientes.dll
+D:\LESI\2ºano\Gestão de rendas\Clientes\bin\Debug\net7.0\Clientes.pdb
+D:\LESI\2ºano\Gestão de rendas\Clientes\obj\Debug\net7.0\Clientes.csproj.AssemblyReference.cache
+D:\LESI\2ºano\Gestão de rendas\Clientes\obj\Debug\net7.0\Clientes.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\Clientes\obj\Debug\net7.0\Clientes.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Clientes\obj\Debug\net7.0\Clientes.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\Clientes\obj\Debug\net7.0\Clientes.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Clientes\obj\Debug\net7.0\Clientes.dll
+D:\LESI\2ºano\Gestão de rendas\Clientes\obj\Debug\net7.0\refint\Clientes.dll
+D:\LESI\2ºano\Gestão de rendas\Clientes\obj\Debug\net7.0\Clientes.pdb
+D:\LESI\2ºano\Gestão de rendas\Clientes\obj\Debug\net7.0\ref\Clientes.dll

@@ -1,0 +1,12 @@
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\bin\Debug\net7.0\PagamentoEntrada.deps.json
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\bin\Debug\net7.0\PagamentoEntrada.dll
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\bin\Debug\net7.0\PagamentoEntrada.pdb
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\obj\Debug\net7.0\PagamentoEntrada.csproj.AssemblyReference.cache
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\obj\Debug\net7.0\PagamentoEntrada.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\obj\Debug\net7.0\PagamentoEntrada.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\obj\Debug\net7.0\PagamentoEntrada.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\obj\Debug\net7.0\PagamentoEntrada.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\obj\Debug\net7.0\PagamentoEntrada.dll
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\obj\Debug\net7.0\refint\PagamentoEntrada.dll
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\obj\Debug\net7.0\PagamentoEntrada.pdb
+D:\LESI\2ºano\Gestão de rendas\PagamentoEntrada\obj\Debug\net7.0\ref\PagamentoEntrada.dll

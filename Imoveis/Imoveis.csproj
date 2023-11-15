@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Caracterização\Caracterizaçao.csproj" />
+    <ProjectReference Include="..\Clientes\Clientes.csproj" />
+    <ProjectReference Include="..\Decumentos\Documentos.csproj" />
+    <ProjectReference Include="..\Gestores\Gestores.csproj" />
+    <ProjectReference Include="..\Localizaçoes\Locais.csproj" />
+    <ProjectReference Include="..\Prestaçoes\Prestaçoes.csproj" />
+    <ProjectReference Include="..\Senhorios\Senhorios.csproj" />
+    <ProjectReference Include="..\TiposImoveis\TiposImoveis.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

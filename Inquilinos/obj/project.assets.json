@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Prestaçoes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Prestaçoes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prestaçoes.dll": {}
+        }
+      },
+      "Serviços/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Serviços.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Serviços.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Prestaçoes/1.0.0": {
+      "type": "project",
+      "path": "../Prestaçoes/Prestaçoes.csproj",
+      "msbuildProject": "../Prestaçoes/Prestaçoes.csproj"
+    },
+    "Serviços/1.0.0": {
+      "type": "project",
+      "path": "../Serviços/Serviços.csproj",
+      "msbuildProject": "../Serviços/Serviços.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Prestaçoes >= 1.0.0",
+      "Serviços >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\MSI\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\LESI\\2ºano\\Gestão de rendas\\Inquilinos\\Inquilinos.csproj",
+      "projectName": "Inquilinos",
+      "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Inquilinos\\Inquilinos.csproj",
+      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
+      "outputPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Inquilinos\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\LESI\\2ºano\\Gestão de rendas\\Prestaçoes\\Prestaçoes.csproj": {
+              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Prestaçoes\\Prestaçoes.csproj"
+            },
+            "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Serviços.csproj": {
+              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Serviços.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
