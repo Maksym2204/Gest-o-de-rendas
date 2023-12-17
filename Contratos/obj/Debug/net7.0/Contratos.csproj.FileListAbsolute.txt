@@ -13,3 +13,4 @@ D:\LESI\2ºano\Gestão de rendas\Contratos\obj\Debug\net7.0\Contratos.dll
 D:\LESI\2ºano\Gestão de rendas\Contratos\obj\Debug\net7.0\refint\Contratos.dll
 D:\LESI\2ºano\Gestão de rendas\Contratos\obj\Debug\net7.0\Contratos.pdb
 D:\LESI\2ºano\Gestão de rendas\Contratos\obj\Debug\net7.0\ref\Contratos.dll
+D:\LESI\2ºano\Gestão de rendas\Contratos\obj\Debug\net7.0\Contratos.sourcelink.json

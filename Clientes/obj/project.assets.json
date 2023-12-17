@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "PagamentoEntrada/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/PagamentoEntrada.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PagamentoEntrada.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "PagamentoEntrada/1.0.0": {
-      "type": "project",
-      "path": "../PagamentoEntrada/PagamentoEntrada.csproj",
-      "msbuildProject": "../PagamentoEntrada/PagamentoEntrada.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "PagamentoEntrada >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\MSI\\.nuget\\packages\\": {},
@@ -57,11 +38,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "D:\\LESI\\2ºano\\Gestão de rendas\\PagamentoEntrada\\PagamentoEntrada.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\PagamentoEntrada\\PagamentoEntrada.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

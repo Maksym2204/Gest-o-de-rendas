@@ -1,62 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Despesas/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Despesas.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Despesas.dll": {}
-        }
-      },
-      "Recibos/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Recibos.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Recibos.dll": {}
-        }
-      },
-      "Serviços/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Serviços.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Serviços.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Despesas/1.0.0": {
-      "type": "project",
-      "path": "../Despesas/Despesas.csproj",
-      "msbuildProject": "../Despesas/Despesas.csproj"
-    },
-    "Recibos/1.0.0": {
-      "type": "project",
-      "path": "../Recibos/Recibos.csproj",
-      "msbuildProject": "../Recibos/Recibos.csproj"
-    },
-    "Serviços/1.0.0": {
-      "type": "project",
-      "path": "../Serviços/Serviços.csproj",
-      "msbuildProject": "../Serviços/Serviços.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Despesas >= 1.0.0",
-      "Recibos >= 1.0.0",
-      "Serviços >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\MSI\\.nuget\\packages\\": {},
@@ -89,17 +38,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "D:\\LESI\\2ºano\\Gestão de rendas\\Despesas\\Despesas.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Despesas\\Despesas.csproj"
-            },
-            "D:\\LESI\\2ºano\\Gestão de rendas\\Recibos\\Recibos.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Recibos\\Recibos.csproj"
-            },
-            "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Serviços.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Serviços.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -9,7 +9,7 @@
  * 
  * */
 
-using Caracterização;
+using Caracterizaçao;
 using Clientes;
 using Gestores;
 using Locais;

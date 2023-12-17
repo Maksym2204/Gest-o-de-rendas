@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PagamentoEntrada\PagamentoEntrada.csproj" />
+    <Reference Include="PagamentoEntrada">
+      <HintPath>..\PagamentoEntrada\obj\Debug\net7.0\PagamentoEntrada.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

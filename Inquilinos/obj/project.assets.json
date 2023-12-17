@@ -1,46 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Prestaçoes/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Prestaçoes.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Prestaçoes.dll": {}
-        }
-      },
-      "Serviços/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Serviços.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Serviços.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Prestaçoes/1.0.0": {
-      "type": "project",
-      "path": "../Prestaçoes/Prestaçoes.csproj",
-      "msbuildProject": "../Prestaçoes/Prestaçoes.csproj"
-    },
-    "Serviços/1.0.0": {
-      "type": "project",
-      "path": "../Serviços/Serviços.csproj",
-      "msbuildProject": "../Serviços/Serviços.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Prestaçoes >= 1.0.0",
-      "Serviços >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\MSI\\.nuget\\packages\\": {},
@@ -73,14 +38,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "D:\\LESI\\2ºano\\Gestão de rendas\\Prestaçoes\\Prestaçoes.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Prestaçoes\\Prestaçoes.csproj"
-            },
-            "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Serviços.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Serviços.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

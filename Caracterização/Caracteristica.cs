@@ -1,4 +1,4 @@
-﻿namespace Caracterização
+﻿namespace Caracterizaçao
 {
     public class Caracteristica
     {

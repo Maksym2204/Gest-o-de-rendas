@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Prestaçoes\Prestaçoes.csproj" />
-    <ProjectReference Include="..\Serviços\Serviços.csproj" />
+    <Reference Include="Prestaçoes">
+      <HintPath>..\Prestaçoes\obj\Debug\net7.0\Prestaçoes.dll</HintPath>
+    </Reference>
+    <Reference Include="Serviços">
+      <HintPath>..\Serviços\obj\Debug\net7.0\Serviços.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

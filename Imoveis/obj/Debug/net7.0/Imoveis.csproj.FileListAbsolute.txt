@@ -10,3 +10,4 @@ D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.dll
 D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\refint\Imoveis.dll
 D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.pdb
 D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\ref\Imoveis.dll
+D:\LESI\2ºano\Gestão de rendas\Imoveis\obj\Debug\net7.0\Imoveis.sourcelink.json

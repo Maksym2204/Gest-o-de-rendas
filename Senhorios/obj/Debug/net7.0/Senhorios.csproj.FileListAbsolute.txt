@@ -1,7 +1,6 @@
 D:\LESI\2ºano\Gestão de rendas\Senhorios\bin\Debug\net7.0\Senhorios.deps.json
 D:\LESI\2ºano\Gestão de rendas\Senhorios\bin\Debug\net7.0\Senhorios.dll
 D:\LESI\2ºano\Gestão de rendas\Senhorios\bin\Debug\net7.0\Senhorios.pdb
-D:\LESI\2ºano\Gestão de rendas\Senhorios\obj\Debug\net7.0\Senhorios.csproj.AssemblyReference.cache
 D:\LESI\2ºano\Gestão de rendas\Senhorios\obj\Debug\net7.0\Senhorios.GeneratedMSBuildEditorConfig.editorconfig
 D:\LESI\2ºano\Gestão de rendas\Senhorios\obj\Debug\net7.0\Senhorios.AssemblyInfoInputs.cache
 D:\LESI\2ºano\Gestão de rendas\Senhorios\obj\Debug\net7.0\Senhorios.AssemblyInfo.cs
@@ -10,3 +9,4 @@ D:\LESI\2ºano\Gestão de rendas\Senhorios\obj\Debug\net7.0\Senhorios.dll
 D:\LESI\2ºano\Gestão de rendas\Senhorios\obj\Debug\net7.0\refint\Senhorios.dll
 D:\LESI\2ºano\Gestão de rendas\Senhorios\obj\Debug\net7.0\Senhorios.pdb
 D:\LESI\2ºano\Gestão de rendas\Senhorios\obj\Debug\net7.0\ref\Senhorios.dll
+D:\LESI\2ºano\Gestão de rendas\Senhorios\obj\Debug\net7.0\Senhorios.sourcelink.json

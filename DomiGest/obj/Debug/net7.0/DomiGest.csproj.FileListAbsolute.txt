@@ -38,3 +38,4 @@ C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\ne
 C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.pdb
 C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\DomiGest.genruntimeconfig.cache
 C:\Users\maroc\OneDrive\Documentos\GitHub\Gestao-de-rendas\DomiGest\obj\Debug\net7.0\ref\DomiGest.dll
+D:\LESI\2ºano\Gestão de rendas\DomiGest\obj\Debug\net7.0\DomiGest.sourcelink.json
