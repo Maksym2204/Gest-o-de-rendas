@@ -13,6 +13,9 @@
     <Reference Include="Serviços">
       <HintPath>..\Serviços\obj\Debug\net7.0\Serviços.dll</HintPath>
     </Reference>
+    <Reference Include="TiposImoveis">
+      <HintPath>..\TiposImoveis\bin\Debug\net7.0\TiposImoveis.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -14,3 +14,15 @@ D:\LESI\2ºano\Gestão de rendas\Contratos\obj\Debug\net7.0\refint\Contratos.dll
 D:\LESI\2ºano\Gestão de rendas\Contratos\obj\Debug\net7.0\Contratos.pdb
 D:\LESI\2ºano\Gestão de rendas\Contratos\obj\Debug\net7.0\ref\Contratos.dll
 D:\LESI\2ºano\Gestão de rendas\Contratos\obj\Debug\net7.0\Contratos.sourcelink.json
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Caracterizaçao.dll
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Locais.dll
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\TiposImoveis.dll
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Senhorios.dll
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Clientes.dll
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Gestores.dll
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Caracterizaçao.pdb
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Locais.pdb
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\TiposImoveis.pdb
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Senhorios.pdb
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Clientes.pdb
+D:\LESI\2ºano\Gestão de rendas\Contratos\bin\Debug\net7.0\Gestores.pdb

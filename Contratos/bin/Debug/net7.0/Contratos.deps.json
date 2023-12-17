@@ -14,9 +14,55 @@
           "Contratos.dll": {}
         }
       },
+      "Caracterizaçao/1.0.0": {
+        "runtime": {
+          "Caracterizaçao.dll": {}
+        }
+      },
       "Imoveis/1.0.0": {
+        "dependencies": {
+          "Caracterizaçao": "1.0.0",
+          "Locais": "1.0.0"
+        },
         "runtime": {
           "Imoveis.dll": {}
+        }
+      },
+      "Locais/1.0.0": {
+        "runtime": {
+          "Locais.dll": {}
+        }
+      },
+      "TiposImoveis/1.0.0.0": {
+        "runtime": {
+          "TiposImoveis.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Senhorios/1.0.0.0": {
+        "runtime": {
+          "Senhorios.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Clientes/1.0.0.0": {
+        "runtime": {
+          "Clientes.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Gestores/1.0.0.0": {
+        "runtime": {
+          "Gestores.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -27,8 +73,38 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Caracterizaçao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Imoveis/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Locais/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TiposImoveis/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senhorios/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clientes/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gestores/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

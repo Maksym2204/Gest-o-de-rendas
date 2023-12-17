@@ -7,8 +7,134 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Imoveis/1.0.0": {
+        "dependencies": {
+          "Caracterizaçao": "1.0.0",
+          "Locais": "1.0.0",
+          "Caracterizaçao.Reference": "1.0.0.0",
+          "Clientes": "1.0.0.0",
+          "Contratos": "1.0.0.0",
+          "Despesas": "1.0.0.0",
+          "Documentos": "1.0.0.0",
+          "Gestores": "1.0.0.0",
+          "Inquilinos": "1.0.0.0",
+          "PagamentoEntrada": "1.0.0.0",
+          "Prestaçoes": "1.0.0.0",
+          "Recibos": "1.0.0.0",
+          "Senhorios": "1.0.0.0",
+          "Serviços": "1.0.0.0",
+          "TiposImoveis": "1.0.0.0"
+        },
         "runtime": {
           "Imoveis.dll": {}
+        }
+      },
+      "Locais/1.0.0": {
+        "runtime": {
+          "Locais.dll": {}
+        }
+      },
+      "Caracterizaçao.Reference/1.0.0.0": {
+        "runtime": {
+          "Caracterizaçao.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Clientes/1.0.0.0": {
+        "runtime": {
+          "Clientes.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Contratos/1.0.0.0": {
+        "runtime": {
+          "Contratos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Despesas/1.0.0.0": {
+        "runtime": {
+          "Despesas.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Documentos/1.0.0.0": {
+        "runtime": {
+          "Documentos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Gestores/1.0.0.0": {
+        "runtime": {
+          "Gestores.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inquilinos/1.0.0.0": {
+        "runtime": {
+          "Inquilinos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PagamentoEntrada/1.0.0.0": {
+        "runtime": {
+          "PagamentoEntrada.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Prestaçoes/1.0.0.0": {
+        "runtime": {
+          "Prestaçoes.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Recibos/1.0.0.0": {
+        "runtime": {
+          "Recibos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Senhorios/1.0.0.0": {
+        "runtime": {
+          "Senhorios.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Serviços/1.0.0.0": {
+        "runtime": {
+          "Serviços.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TiposImoveis/1.0.0.0": {
+        "runtime": {
+          "TiposImoveis.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +142,76 @@
   "libraries": {
     "Imoveis/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Locais/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Caracterizaçao.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clientes/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contratos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Despesas/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Documentos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gestores/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inquilinos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PagamentoEntrada/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Prestaçoes/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Recibos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senhorios/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serviços/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TiposImoveis/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

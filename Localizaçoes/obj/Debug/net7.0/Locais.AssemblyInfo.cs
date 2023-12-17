@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Locais")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36f7d14b040d67e35a6dfd824c5dafa225ce7c9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Locais")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Locais")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

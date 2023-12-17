@@ -32,6 +32,8 @@
 
         #endregion
 
+        #region Metodos
+        #endregion
         #region Construtor
 
         /// <summary>

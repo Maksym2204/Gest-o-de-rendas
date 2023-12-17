@@ -1,12 +1,14 @@
 ﻿using Prestaçoes;
 using Serviços;
+using System.Collections;
+using TiposImoveis;
 
 namespace Inquilinos
 {
     public class Inquilino
     {
         #region Atributos
-
+        private ArrayList inquilinos = new ArrayList();
         private string nome;
         private string endereco;
         private string telefone;
@@ -14,10 +16,22 @@ namespace Inquilinos
         private DateTime dataInicioContrato;
         private Prestaçao prestaçao;
         private Serviço serviço;
+        private TipoImovel tipoImovel;
 
         #endregion
 
         #region Propriedades
+        public TipoImovel TipoImovel
+        {
+            get { return tipoImovel; }
+            set { tipoImovel = value; }
+        }
+
+        public ArrayList Inquilinos
+        {
+            get { return inquilinos; }
+            set { inquilinos = value; }
+        }
 
         public string Nome
         {
@@ -48,7 +62,7 @@ namespace Inquilinos
             get { return dataInicioContrato; }
             set { dataInicioContrato = value; }
         }
-        public Prestaçao Prestaça
+        public Prestaçao Prestaçao
         {
             get { return prestaçao; }
             set { prestaçao = value; }
@@ -78,7 +92,7 @@ namespace Inquilinos
             Telefone = telefone;
             Email = email;
             DataInicioContrato = dataInicioContrato;
-            Prestaça = prestaça;
+            Prestaçao = prestaça;
             Serviço = serviço;
         }
 

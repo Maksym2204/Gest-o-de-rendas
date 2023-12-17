@@ -1,7 +1,6 @@
 D:\LESI\2ºano\Gestão de rendas\TiposImoveis\bin\Debug\net7.0\TiposImoveis.deps.json
 D:\LESI\2ºano\Gestão de rendas\TiposImoveis\bin\Debug\net7.0\TiposImoveis.dll
 D:\LESI\2ºano\Gestão de rendas\TiposImoveis\bin\Debug\net7.0\TiposImoveis.pdb
-D:\LESI\2ºano\Gestão de rendas\TiposImoveis\obj\Debug\net7.0\TiposImoveis.csproj.AssemblyReference.cache
 D:\LESI\2ºano\Gestão de rendas\TiposImoveis\obj\Debug\net7.0\TiposImoveis.GeneratedMSBuildEditorConfig.editorconfig
 D:\LESI\2ºano\Gestão de rendas\TiposImoveis\obj\Debug\net7.0\TiposImoveis.AssemblyInfoInputs.cache
 D:\LESI\2ºano\Gestão de rendas\TiposImoveis\obj\Debug\net7.0\TiposImoveis.AssemblyInfo.cs
@@ -10,3 +9,4 @@ D:\LESI\2ºano\Gestão de rendas\TiposImoveis\obj\Debug\net7.0\TiposImoveis.dll
 D:\LESI\2ºano\Gestão de rendas\TiposImoveis\obj\Debug\net7.0\refint\TiposImoveis.dll
 D:\LESI\2ºano\Gestão de rendas\TiposImoveis\obj\Debug\net7.0\TiposImoveis.pdb
 D:\LESI\2ºano\Gestão de rendas\TiposImoveis\obj\Debug\net7.0\ref\TiposImoveis.dll
+D:\LESI\2ºano\Gestão de rendas\TiposImoveis\obj\Debug\net7.0\TiposImoveis.sourcelink.json
