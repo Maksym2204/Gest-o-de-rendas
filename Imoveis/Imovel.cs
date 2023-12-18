@@ -14,6 +14,7 @@ using Clientes;
 using Gestores;
 using Locais;
 using Senhorios;
+using System.Collections;
 using TiposImoveis;
 
 namespace Imoveis
@@ -25,11 +26,12 @@ namespace Imoveis
     {
         #region Atributos
 
+        private ArrayList imoveis = new ArrayList();
         private TipoImovel tipo;
         private Local local;
         private string condicao;
         private Caracteristica caracteristica;
-        private bool estado;
+        private bool disponivel;
         private Senhorio senhorio;
         private Cliente cliente;
         private Gestor gestor;
@@ -40,6 +42,11 @@ namespace Imoveis
 
     #region Propriedades
 
+        public ArrayList Imoveis
+        {
+            get { return imoveis; }
+            set { imoveis = value; }
+        }
         public TipoImovel Tipo
         {
             get { return tipo; }
@@ -62,10 +69,10 @@ namespace Imoveis
             set {  caracteristica = value; }
         }
 
-        public bool Estado
+        public bool Disponivel
         {
-            get { return estado; }
-            set { estado = value; }
+            get { return disponivel; }
+            set { disponivel = value; }
         }
         public Senhorio Senhorio
         {
@@ -85,6 +92,42 @@ namespace Imoveis
 
         #endregion
 
+        #region Metodos
+
+        public void ValorBase(TipoImovel nome)
+        {
+             double precoBase = 0;
+            if ( tipo == TipoImovel.Apartamento)
+            {
+                precoBase += 10000;
+            }
+            else if (tipo == TipoImovel.Vivenda)
+            {
+                precoBase += 20000;
+            }
+            else if (tipo == TipoImovel.Terreno)
+            {
+                precoBase += 5000;
+            }
+        }
+        public void TemGaragem(bool possuiGaragem, double precoBase)
+        {
+            if (possuiGaragem == true)
+            {
+                precoBase += 9000;
+            }
+        }
+
+        public void TemJardim(bool possuiJardim, double precoBase)
+        {
+            if (possuiJardim == true)
+            {
+                precoBase += 1800;
+            }
+        }
+
+        #endregion
+
         #region Construtor
 
         /// <summary>
@@ -93,13 +136,13 @@ namespace Imoveis
         /// <param name="tipo"></param>
         /// <param name="endereco"></param>
         /// <param name="rendaMensal"></param>
-        public Imovel(TipoImovel tipo, string endereco, Caracteristica caracteristica, double rendaMensal, Senhorio senhorio,Cliente cliente, Gestor gestor)
+        public Imovel(TipoImovel tipo, string endereco, Caracteristica caracteristica, double rendaMensal, Senhorio senhorio,Cliente cliente, Gestor gestor, bool disponivel)
         {
             TipoImovel Tipo = tipo;
             Local Local = local;
             Condicao = condicao;
             Caracteristica = caracteristica;
-            Estado = true;
+            Disponivel = true;
             Senhorio = senhorio;
             Cliente = cliente;
             Gestor = gestor;

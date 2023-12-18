@@ -10,10 +10,17 @@
         private double areaTotal;
         private bool possuiJardim;
         private bool mobiliado;
+        private int metrosQuadrados;
 
         #endregion
 
         #region Propriedades
+
+        public int MetrosQuadrados
+        {
+            get { return metrosQuadrados; }
+            set { metrosQuadrados = value; }
+        }
 
         public int NumeroQuartos
         {

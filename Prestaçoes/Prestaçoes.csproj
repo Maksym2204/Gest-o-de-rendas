@@ -1,9 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DataTempo">
+      <HintPath>..\DataTempo\bin\Debug\net8.0\DataTempo.dll</HintPath>
+    </Reference>
+    <Reference Include="Imoveis">
+      <HintPath>..\Imoveis\bin\Debug\net7.0\Imoveis.dll</HintPath>
+    </Reference>
+    <Reference Include="Inquilinos">
+      <HintPath>..\Inquilinos\bin\Debug\net7.0\Inquilinos.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>

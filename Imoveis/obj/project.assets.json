@@ -2,16 +2,6 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Caracterizaçao/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Caracterizaçao.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Caracterizaçao.dll": {}
-        }
-      },
       "Locais/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -25,11 +15,6 @@
     }
   },
   "libraries": {
-    "Caracterizaçao/1.0.0": {
-      "type": "project",
-      "path": "../Caracterização/Caracterizaçao.csproj",
-      "msbuildProject": "../Caracterização/Caracterizaçao.csproj"
-    },
     "Locais/1.0.0": {
       "type": "project",
       "path": "../Localizaçoes/Locais.csproj",
@@ -38,7 +23,6 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Caracterizaçao >= 1.0.0",
       "Locais >= 1.0.0"
     ]
   },
@@ -74,9 +58,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\LESI\\2ºano\\Gestão de rendas\\Caracterização\\Caracterizaçao.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Caracterização\\Caracterizaçao.csproj"
-            },
             "D:\\LESI\\2ºano\\Gestão de rendas\\Localizaçoes\\Locais.csproj": {
               "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Localizaçoes\\Locais.csproj"
             }

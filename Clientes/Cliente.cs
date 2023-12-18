@@ -10,7 +10,7 @@ namespace Clientes
         private string endereco;
         private string telefone;
         private string email;
-        private Entrada entrada;
+        private double entrada;
         #endregion
 
         #region Propriedades
@@ -38,7 +38,7 @@ namespace Clientes
             get { return email; }
             set { email = value; }
         }
-        public Entrada Entrada
+        public double Entrada
         {
             get { return entrada; }
             set { entrada = value; }
@@ -54,13 +54,13 @@ namespace Clientes
         /// <param name="endereco"></param>
         /// <param name="telefone"></param>
         /// <param name="email"></param>
-        public Cliente(string nome, string endereco, string telefone, string email, Entrada entrada)
+        public Cliente(string nome, string endereco, string telefone, string email, double entrada)
         {
             Nome = nome;
             Endereco = endereco;
             Telefone = telefone;
             Email = email;
-            Entrada = entrada;
+            Entrada = 20000;
         }
 
         #endregion

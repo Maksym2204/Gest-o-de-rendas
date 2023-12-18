@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Caracterização\Caracterizaçao.csproj" />
     <ProjectReference Include="..\Localizaçoes\Locais.csproj" />
   </ItemGroup>
 

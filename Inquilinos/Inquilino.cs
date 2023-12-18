@@ -17,10 +17,22 @@ namespace Inquilinos
         private Prestaçao prestaçao;
         private Serviço serviço;
         private TipoImovel tipoImovel;
-
+        private int saldo;
+        private int numeroMensalidades;
         #endregion
 
         #region Propriedades
+
+        public int NumeroMensalidades
+        {
+            get { return numeroMensalidades; }
+            set { numeroMensalidades = value; }
+        }
+        public int Saldo
+        {
+            get { return saldo; }
+            set { saldo = value; }
+        }   
         public TipoImovel TipoImovel
         {
             get { return tipoImovel; }
@@ -85,7 +97,7 @@ namespace Inquilinos
         /// <param name="telefone"></param>
         /// <param name="email"></param>
         /// <param name="dataInicioContrato"></param>
-        public Inquilino(string nome, string endereco, string telefone, string email, DateTime dataInicioContrato, Prestaçao prestaça, Serviço serviço)
+        public Inquilino(string nome, string endereco, string telefone, string email, DateTime dataInicioContrato, Prestaçao prestaça, Serviço serviço, int numeroMensalidades)
         {
             Nome = nome;
             Endereco = endereco;
@@ -94,6 +106,7 @@ namespace Inquilinos
             DataInicioContrato = dataInicioContrato;
             Prestaçao = prestaça;
             Serviço = serviço;
+            NumeroMensalidades = numeroMensalidades;
         }
 
         #endregion
