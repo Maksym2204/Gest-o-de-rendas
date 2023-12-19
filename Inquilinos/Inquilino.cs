@@ -17,7 +17,7 @@ namespace Inquilinos
         private Prestaçao prestaçao;
         private Serviço serviço;
         private TipoImovel tipoImovel;
-        private int saldo;
+        private double saldo;
         private int numeroMensalidades;
         #endregion
 
@@ -28,7 +28,7 @@ namespace Inquilinos
             get { return numeroMensalidades; }
             set { numeroMensalidades = value; }
         }
-        public int Saldo
+        public double Saldo
         {
             get { return saldo; }
             set { saldo = value; }

@@ -36,20 +36,21 @@ namespace Prestaçoes
             TimeSpan diferenca = DateTime.Now - diaPagamento;
             return (long)diferenca.TotalDays;
         }
-        public void MultaPrestacaoAtraso(DateTime diferenca)
+        //public void MultaPrestacaoAtraso(DateTime diferenca)
+        //{
+        //    long NumeroDias = DiasDesdeUltimaPrestacao(diferenca);
+        //    if(NumeroDias > 30)
+        //    {
+        //        Pago = false;
+        //        valorPrestacao += valorPrestacao * 0.1;
+        //    }
+        //}
+        public void PagarPrestacao(DateTime diferenca, double saldo)
         {
             long NumeroDias = DiasDesdeUltimaPrestacao(diferenca);
-            if(NumeroDias > 30)
-            {
-                Pago = false;
-                valorPrestacao += valorPrestacao * 0.1;
-            }
-        }
-        public void PagarPrestacao(long NumeroDias)
-        {
             if (Pago == false && NumeroDias > 30)
                {                 
-                Pago = true;
+                saldo = saldo - valorPrestacao;
                }
         }
         public void ValorDaPrestacao(double precoBase, int numeroMensalidades)

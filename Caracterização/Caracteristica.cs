@@ -7,7 +7,7 @@
         private int numeroQuartos;
         private int numeroWC;
         private bool possuiGaragem;
-        private double areaTotal;
+        private double areaTotal;   
         private bool possuiJardim;
         private bool mobiliado;
         private int metrosQuadrados;

@@ -35,12 +35,19 @@ namespace Imoveis
         private Senhorio senhorio;
         private Cliente cliente;
         private Gestor gestor;
+        private double valorPorMetroQuadrado;
 
 
         
  #endregion
 
     #region Propriedades
+
+        public double ValorPorMetroQuadrado
+        {
+            get { return valorPorMetroQuadrado; }
+            set { valorPorMetroQuadrado = value; }
+        }
 
         public ArrayList Imoveis
         {
@@ -110,6 +117,10 @@ namespace Imoveis
                 precoBase += 5000;
             }
         }
+        public void ValorArea(double precoBase, double metrosQuadrados)
+        {
+            precoBase += metrosQuadrados * valorPorMetroQuadrado;
+        }
         public void TemGaragem(bool possuiGaragem, double precoBase)
         {
             if (possuiGaragem == true)
@@ -126,6 +137,10 @@ namespace Imoveis
             }
         }
 
+        public void ValorEntrada(double precoBase, double entrada)
+        {
+            entrada = precoBase * 0.3;
+        }
         #endregion
 
         #region Construtor
