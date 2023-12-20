@@ -9,20 +9,19 @@
  * 
  * */
 
-using Caracterizaçao;
-using Clientes;
+using Caracteristicas;
 using Gestores;
+using Inquilinos;
 using Locais;
-using Senhorios;
 using System.Collections;
-using TiposImoveis;
+using System.Numerics;
 
 namespace Imoveis
 {
     /// <summary>
     /// Classe para representar um imóvel
     /// </summary>
-    public class Imovel
+    public class Imovel : IImovel
     {
         #region Atributos
 
@@ -32,11 +31,10 @@ namespace Imoveis
         private string condicao;
         private Caracteristica caracteristica;
         private bool disponivel;
-        private Senhorio senhorio;
-        private Cliente cliente;
+        private Inquilino inquilino;
         private Gestor gestor;
-        private double valorPorMetroQuadrado;
-
+        private const double valorPorMetroQuadrado = 530;
+        private double preco;
 
         
  #endregion
@@ -46,7 +44,6 @@ namespace Imoveis
         public double ValorPorMetroQuadrado
         {
             get { return valorPorMetroQuadrado; }
-            set { valorPorMetroQuadrado = value; }
         }
 
         public ArrayList Imoveis
@@ -81,15 +78,10 @@ namespace Imoveis
             get { return disponivel; }
             set { disponivel = value; }
         }
-        public Senhorio Senhorio
+        public Inquilino Inquilino
         {
-            get { return senhorio; }
-            set { senhorio = value; }
-        }
-        public Cliente Cliente
-        {
-            get { return cliente; }
-            set { cliente = value; }
+            get { return inquilino; }
+            set { inquilino = value; }
         }
         public Gestor Gestor
         {
@@ -97,71 +89,50 @@ namespace Imoveis
             set { gestor = value; }
         }
 
+        public double Preco
+        {
+            get { return preco; }
+            set { preco = value; }
+        }
+
         #endregion
 
         #region Metodos
 
-        public void ValorBase(TipoImovel nome)
+        public double RetornaPrecoBasePorTipoImovel(TipoImovel tipoImovel)
         {
-             double precoBase = 0;
-            if ( tipo == TipoImovel.Apartamento)
+            switch (tipoImovel)
             {
-                precoBase += 10000;
-            }
-            else if (tipo == TipoImovel.Vivenda)
-            {
-                precoBase += 20000;
-            }
-            else if (tipo == TipoImovel.Terreno)
-            {
-                precoBase += 5000;
-            }
-        }
-        public void ValorArea(double precoBase, double metrosQuadrados)
-        {
-            precoBase += metrosQuadrados * valorPorMetroQuadrado;
-        }
-        public void TemGaragem(bool possuiGaragem, double precoBase)
-        {
-            if (possuiGaragem == true)
-            {
-                precoBase += 9000;
+                case TipoImovel.Apartamento:
+                    return 10000;
+                case TipoImovel.Vivenda:
+                    return 20000;
+                case TipoImovel.Terreno:
+                    return 5000;
+                default:
+                    return 0;
             }
         }
 
-        public void TemJardim(bool possuiJardim, double precoBase)
-        {
-            if (possuiJardim == true)
-            {
-                precoBase += 1800;
-            }
-        }
-
-        public void ValorEntrada(double precoBase, double entrada)
-        {
-            entrada = precoBase * 0.3;
-        }
         #endregion
 
         #region Construtor
 
-        /// <summary>
-        /// Construtor da classe Imovel
-        /// </summary>
-        /// <param name="tipo"></param>
-        /// <param name="endereco"></param>
-        /// <param name="rendaMensal"></param>
-        public Imovel(TipoImovel tipo, string endereco, Caracteristica caracteristica, double rendaMensal, Senhorio senhorio,Cliente cliente, Gestor gestor, bool disponivel)
+        public Imovel(TipoImovel tipo, Local local, string condicao, Caracteristica caracteristica, bool disponivel, Inquilino inquilino, Gestor gestor, double valorPorMetroQuadrado)
         {
-            TipoImovel Tipo = tipo;
-            Local Local = local;
-            Condicao = condicao;
-            Caracteristica = caracteristica;
-            Disponivel = true;
-            Senhorio = senhorio;
-            Cliente = cliente;
-            Gestor = gestor;
-            /// Imóvel está disponível para aluguer inicialmente
+            if (string.IsNullOrEmpty(condicao))
+            {
+                throw new ArgumentException("A condição do imóvel não pode ser nula ou vazia.");
+            }
+
+            this.tipo = tipo;
+            this.local = local;
+            this.condicao = condicao;
+            this.caracteristica = caracteristica;
+            this.disponivel = disponivel;
+            this.inquilino = inquilino;
+            this.gestor = gestor;
+            this.preco = RetornaPrecoBasePorTipoImovel(tipo);
         }
 
         #endregion

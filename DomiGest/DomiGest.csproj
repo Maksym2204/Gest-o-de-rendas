@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,9 +8,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Contratos\Contratos.csproj" />
-    <ProjectReference Include="..\Imoveis\Imoveis.csproj" />
-    <ProjectReference Include="..\Senhorios\Senhorios.csproj" />
+    <Reference Include="Caracteristica">
+      <HintPath>..\Caracterização\bin\Debug\net7.0\Caracteristica.dll</HintPath>
+    </Reference>
+    <Reference Include="DataTempo">
+      <HintPath>..\DataTempo\bin\Debug\net8.0\DataTempo.dll</HintPath>
+    </Reference>
+    <Reference Include="Imoveis">
+      <HintPath>..\Imoveis\bin\Debug\net7.0\Imoveis.dll</HintPath>
+    </Reference>
+    <Reference Include="Locais">
+      <HintPath>..\Localizacoes\bin\Debug\net7.0\Locais.dll</HintPath>
+    </Reference>
+    <Reference Include="Pagamentos">
+      <HintPath>..\Pagamentos\bin\Debug\net7.0\Pagamentos.dll</HintPath>
+    </Reference>
+    <Reference Include="RecursosHumanos">
+      <HintPath>..\RecursosHumanos\bin\Debug\net7.0\RecursosHumanos.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

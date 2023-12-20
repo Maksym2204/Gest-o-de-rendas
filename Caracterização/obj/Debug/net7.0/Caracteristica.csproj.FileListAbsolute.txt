@@ -1,0 +1,12 @@
+D:\LESI\2ºano\Gestão de rendas\Caracterização\bin\Debug\net7.0\Caracteristica.deps.json
+D:\LESI\2ºano\Gestão de rendas\Caracterização\bin\Debug\net7.0\Caracteristica.dll
+D:\LESI\2ºano\Gestão de rendas\Caracterização\bin\Debug\net7.0\Caracteristica.pdb
+D:\LESI\2ºano\Gestão de rendas\Caracterização\obj\Debug\net7.0\Caracteristica.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\Caracterização\obj\Debug\net7.0\Caracteristica.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Caracterização\obj\Debug\net7.0\Caracteristica.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\Caracterização\obj\Debug\net7.0\Caracteristica.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Caracterização\obj\Debug\net7.0\Caracteristica.sourcelink.json
+D:\LESI\2ºano\Gestão de rendas\Caracterização\obj\Debug\net7.0\Caracteristica.dll
+D:\LESI\2ºano\Gestão de rendas\Caracterização\obj\Debug\net7.0\refint\Caracteristica.dll
+D:\LESI\2ºano\Gestão de rendas\Caracterização\obj\Debug\net7.0\Caracteristica.pdb
+D:\LESI\2ºano\Gestão de rendas\Caracterização\obj\Debug\net7.0\ref\Caracteristica.dll

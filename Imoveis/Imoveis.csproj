@@ -7,48 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Localizaçoes\Locais.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Caracterizaçao">
-      <HintPath>..\Caracterização\obj\Debug\net7.0\Caracterizaçao.dll</HintPath>
-    </Reference>
-    <Reference Include="Clientes">
-      <HintPath>..\Clientes\obj\Debug\net7.0\Clientes.dll</HintPath>
-    </Reference>
-    <Reference Include="Contratos">
-      <HintPath>..\Contratos\obj\Debug\net7.0\Contratos.dll</HintPath>
-    </Reference>
-    <Reference Include="Despesas">
-      <HintPath>..\Despesas\obj\Debug\net7.0\Despesas.dll</HintPath>
-    </Reference>
-    <Reference Include="Documentos">
-      <HintPath>..\Decumentos\obj\Debug\net7.0\Documentos.dll</HintPath>
+    <Reference Include="Caracteristica">
+      <HintPath>..\Caracterização\bin\Debug\net7.0\Caracteristica.dll</HintPath>
     </Reference>
     <Reference Include="Gestores">
-      <HintPath>..\Gestores\obj\Debug\net7.0\Gestores.dll</HintPath>
+      <HintPath>..\Gestores\bin\Debug\net7.0\Gestores.dll</HintPath>
     </Reference>
     <Reference Include="Inquilinos">
-      <HintPath>..\Inquilinos\obj\Debug\net7.0\Inquilinos.dll</HintPath>
+      <HintPath>..\Inquilinos\bin\Debug\net7.0\Inquilinos.dll</HintPath>
     </Reference>
-    <Reference Include="PagamentoEntrada">
-      <HintPath>..\PagamentoEntrada\obj\Debug\net7.0\PagamentoEntrada.dll</HintPath>
-    </Reference>
-    <Reference Include="Prestaçoes">
-      <HintPath>..\Prestaçoes\obj\Debug\net7.0\Prestaçoes.dll</HintPath>
-    </Reference>
-    <Reference Include="Recibos">
-      <HintPath>..\Recibos\obj\Debug\net7.0\Recibos.dll</HintPath>
-    </Reference>
-    <Reference Include="Senhorios">
-      <HintPath>..\Senhorios\obj\Debug\net7.0\Senhorios.dll</HintPath>
-    </Reference>
-    <Reference Include="Serviços">
-      <HintPath>..\Serviços\obj\Debug\net7.0\Serviços.dll</HintPath>
-    </Reference>
-    <Reference Include="TiposImoveis">
-      <HintPath>..\TiposImoveis\obj\Debug\net7.0\TiposImoveis.dll</HintPath>
+    <Reference Include="Locais">
+      <HintPath>..\Localizaçoes\bin\Debug\net7.0\Locais.dll</HintPath>
     </Reference>
   </ItemGroup>
 

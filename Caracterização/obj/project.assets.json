@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LESI\\2ºano\\Gestão de rendas\\Caracterização\\Caracterizaçao.csproj",
-      "projectName": "Caracterizaçao",
-      "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Caracterização\\Caracterizaçao.csproj",
+      "projectUniqueName": "D:\\LESI\\2ºano\\Gestão de rendas\\Caracterização\\Caracteristica.csproj",
+      "projectName": "Caracteristica",
+      "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Caracterização\\Caracteristica.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
       "outputPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Caracterização\\obj\\",
       "projectStyle": "PackageReference",

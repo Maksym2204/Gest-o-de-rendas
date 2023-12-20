@@ -5,24 +5,11 @@
       "Imoveis/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Locais": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Imoveis.dll": {}
         },
         "runtime": {
           "bin/placeholder/Imoveis.dll": {}
-        }
-      },
-      "Locais/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Locais.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Locais.dll": {}
         }
       }
     }
@@ -32,11 +19,6 @@
       "type": "project",
       "path": "../Imoveis/Imoveis.csproj",
       "msbuildProject": "../Imoveis/Imoveis.csproj"
-    },
-    "Locais/1.0.0": {
-      "type": "project",
-      "path": "../Localizaçoes/Locais.csproj",
-      "msbuildProject": "../Localizaçoes/Locais.csproj"
     }
   },
   "projectFileDependencyGroups": {

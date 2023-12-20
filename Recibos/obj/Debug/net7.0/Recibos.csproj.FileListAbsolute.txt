@@ -1,11 +1,11 @@
 D:\LESI\2ºano\Gestão de rendas\Recibos\bin\Debug\net7.0\Recibos.deps.json
 D:\LESI\2ºano\Gestão de rendas\Recibos\bin\Debug\net7.0\Recibos.dll
 D:\LESI\2ºano\Gestão de rendas\Recibos\bin\Debug\net7.0\Recibos.pdb
-D:\LESI\2ºano\Gestão de rendas\Recibos\obj\Debug\net7.0\Recibos.csproj.AssemblyReference.cache
 D:\LESI\2ºano\Gestão de rendas\Recibos\obj\Debug\net7.0\Recibos.GeneratedMSBuildEditorConfig.editorconfig
 D:\LESI\2ºano\Gestão de rendas\Recibos\obj\Debug\net7.0\Recibos.AssemblyInfoInputs.cache
 D:\LESI\2ºano\Gestão de rendas\Recibos\obj\Debug\net7.0\Recibos.AssemblyInfo.cs
 D:\LESI\2ºano\Gestão de rendas\Recibos\obj\Debug\net7.0\Recibos.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Recibos\obj\Debug\net7.0\Recibos.sourcelink.json
 D:\LESI\2ºano\Gestão de rendas\Recibos\obj\Debug\net7.0\Recibos.dll
 D:\LESI\2ºano\Gestão de rendas\Recibos\obj\Debug\net7.0\refint\Recibos.dll
 D:\LESI\2ºano\Gestão de rendas\Recibos\obj\Debug\net7.0\Recibos.pdb

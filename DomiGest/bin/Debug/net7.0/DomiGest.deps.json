@@ -8,24 +8,111 @@
     ".NETCoreApp,Version=v7.0": {
       "DomiGest/1.0.0": {
         "dependencies": {
-          "GestaoDeContratos": "1.0.0",
-          "GestaoDeImoveis": "1.0.0"
+          "Caracteristica": "1.0.0.0",
+          "DataTempo": "1.0.0.0",
+          "Imoveis": "1.0.0.0",
+          "Locais": "1.0.0.0",
+          "Pagamentos": "1.0.0.0",
+          "RecursosHumanos": "1.0.0.0"
         },
         "runtime": {
           "DomiGest.dll": {}
         }
       },
-      "GestaoDeContratos/1.0.0": {
-        "dependencies": {
-          "GestaoDeImoveis": "1.0.0"
-        },
+      "Caracteristica/1.0.0.0": {
         "runtime": {
-          "GestaoDeContratos.dll": {}
+          "Caracteristica.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
-      "GestaoDeImoveis/1.0.0": {
+      "DataTempo/1.0.0.0": {
         "runtime": {
-          "GestaoDeImoveis.dll": {}
+          "DataTempo.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Imoveis/1.0.0.0": {
+        "runtime": {
+          "Imoveis.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Locais/1.0.0.0": {
+        "runtime": {
+          "Locais.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Pagamentos/1.0.0.0": {
+        "runtime": {
+          "Pagamentos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "RecursosHumanos/1.0.0.0": {
+        "runtime": {
+          "RecursosHumanos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Senhorios/1.0.0.0": {
+        "runtime": {
+          "Senhorios.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Clientes/1.0.0.0": {
+        "runtime": {
+          "Clientes.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Gestores/1.0.0.0": {
+        "runtime": {
+          "Gestores.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Despesas/1.0.0.0": {
+        "runtime": {
+          "Despesas.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Recibos/1.0.0.0": {
+        "runtime": {
+          "Recibos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Servicos/1.0.0.0": {
+        "runtime": {
+          "Servicos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -36,13 +123,63 @@
       "serviceable": false,
       "sha512": ""
     },
-    "GestaoDeContratos/1.0.0": {
-      "type": "project",
+    "Caracteristica/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "GestaoDeImoveis/1.0.0": {
-      "type": "project",
+    "DataTempo/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Imoveis/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Locais/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pagamentos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RecursosHumanos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senhorios/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clientes/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gestores/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Despesas/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Recibos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Servicos/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

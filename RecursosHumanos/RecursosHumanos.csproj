@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Despesas">
+      <HintPath>..\Despesas\bin\Debug\net7.0\Despesas.dll</HintPath>
+    </Reference>
+    <Reference Include="Imoveis">
+      <HintPath>..\Imoveis\bin\Debug\net7.0\Imoveis.dll</HintPath>
+    </Reference>
+    <Reference Include="Pagamentos">
+      <HintPath>..\Pagamentos\bin\Debug\net7.0\Pagamentos.dll</HintPath>
+    </Reference>
+    <Reference Include="Recibos">
+      <HintPath>..\Recibos\bin\Debug\net7.0\Recibos.dll</HintPath>
+    </Reference>
+    <Reference Include="Servicos">
+      <HintPath>..\Serviços\bin\Debug\net7.0\Servicos.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

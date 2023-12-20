@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Serviços.csproj",
-      "projectName": "Serviços",
-      "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Serviços.csproj",
+      "projectUniqueName": "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Servicos.csproj",
+      "projectName": "Servicos",
+      "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\Servicos.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
       "outputPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Serviços\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DataTempo">
+      <HintPath>..\DataTempo\bin\Debug\net7.0\DataTempo.dll</HintPath>
+    </Reference>
+    <Reference Include="RecursosHumanos">
+      <HintPath>..\RecursosHumanos\bin\Debug\net7.0\RecursosHumanos.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

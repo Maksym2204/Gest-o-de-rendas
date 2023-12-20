@@ -1,0 +1,12 @@
+D:\LESI\2ºano\Gestão de rendas\DataTempo\bin\Debug\net7.0\DataTempo.deps.json
+D:\LESI\2ºano\Gestão de rendas\DataTempo\bin\Debug\net7.0\DataTempo.dll
+D:\LESI\2ºano\Gestão de rendas\DataTempo\bin\Debug\net7.0\DataTempo.pdb
+D:\LESI\2ºano\Gestão de rendas\DataTempo\obj\Debug\net7.0\DataTempo.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\DataTempo\obj\Debug\net7.0\DataTempo.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\DataTempo\obj\Debug\net7.0\DataTempo.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\DataTempo\obj\Debug\net7.0\DataTempo.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\DataTempo\obj\Debug\net7.0\DataTempo.sourcelink.json
+D:\LESI\2ºano\Gestão de rendas\DataTempo\obj\Debug\net7.0\DataTempo.dll
+D:\LESI\2ºano\Gestão de rendas\DataTempo\obj\Debug\net7.0\refint\DataTempo.dll
+D:\LESI\2ºano\Gestão de rendas\DataTempo\obj\Debug\net7.0\DataTempo.pdb
+D:\LESI\2ºano\Gestão de rendas\DataTempo\obj\Debug\net7.0\ref\DataTempo.dll

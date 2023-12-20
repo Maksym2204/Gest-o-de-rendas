@@ -1,83 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Contratos/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Imoveis": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Contratos.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Contratos.dll": {}
-        }
-      },
-      "Imoveis/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Locais": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Imoveis.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Imoveis.dll": {}
-        }
-      },
-      "Locais/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Locais.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Locais.dll": {}
-        }
-      },
-      "Senhorios/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Senhorios.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Senhorios.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Contratos/1.0.0": {
-      "type": "project",
-      "path": "../Contratos/Contratos.csproj",
-      "msbuildProject": "../Contratos/Contratos.csproj"
-    },
-    "Imoveis/1.0.0": {
-      "type": "project",
-      "path": "../Imoveis/Imoveis.csproj",
-      "msbuildProject": "../Imoveis/Imoveis.csproj"
-    },
-    "Locais/1.0.0": {
-      "type": "project",
-      "path": "../Localizaçoes/Locais.csproj",
-      "msbuildProject": "../Localizaçoes/Locais.csproj"
-    },
-    "Senhorios/1.0.0": {
-      "type": "project",
-      "path": "../Senhorios/Senhorios.csproj",
-      "msbuildProject": "../Senhorios/Senhorios.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Contratos >= 1.0.0",
-      "Imoveis >= 1.0.0",
-      "Senhorios >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\MSI\\.nuget\\packages\\": {},
@@ -110,17 +38,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "D:\\LESI\\2ºano\\Gestão de rendas\\Contratos\\Contratos.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Contratos\\Contratos.csproj"
-            },
-            "D:\\LESI\\2ºano\\Gestão de rendas\\Imoveis\\Imoveis.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Imoveis\\Imoveis.csproj"
-            },
-            "D:\\LESI\\2ºano\\Gestão de rendas\\Senhorios\\Senhorios.csproj": {
-              "projectPath": "D:\\LESI\\2ºano\\Gestão de rendas\\Senhorios\\Senhorios.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

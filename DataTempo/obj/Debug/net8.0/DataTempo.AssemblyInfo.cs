@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataTempo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+451a8f53e78022238fa1126709082a7214dd3de2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2329470ac10b19aef2e6b3bb4d6b807c9e11ab8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataTempo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataTempo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,11 +1,11 @@
 D:\LESI\2ºano\Gestão de rendas\Serviços\bin\Debug\net7.0\Serviços.deps.json
 D:\LESI\2ºano\Gestão de rendas\Serviços\bin\Debug\net7.0\Serviços.dll
 D:\LESI\2ºano\Gestão de rendas\Serviços\bin\Debug\net7.0\Serviços.pdb
-D:\LESI\2ºano\Gestão de rendas\Serviços\obj\Debug\net7.0\Serviços.csproj.AssemblyReference.cache
 D:\LESI\2ºano\Gestão de rendas\Serviços\obj\Debug\net7.0\Serviços.GeneratedMSBuildEditorConfig.editorconfig
 D:\LESI\2ºano\Gestão de rendas\Serviços\obj\Debug\net7.0\Serviços.AssemblyInfoInputs.cache
 D:\LESI\2ºano\Gestão de rendas\Serviços\obj\Debug\net7.0\Serviços.AssemblyInfo.cs
 D:\LESI\2ºano\Gestão de rendas\Serviços\obj\Debug\net7.0\Serviços.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\Serviços\obj\Debug\net7.0\Serviços.sourcelink.json
 D:\LESI\2ºano\Gestão de rendas\Serviços\obj\Debug\net7.0\Serviços.dll
 D:\LESI\2ºano\Gestão de rendas\Serviços\obj\Debug\net7.0\refint\Serviços.dll
 D:\LESI\2ºano\Gestão de rendas\Serviços\obj\Debug\net7.0\Serviços.pdb
