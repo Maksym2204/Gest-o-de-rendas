@@ -1,6 +1,4 @@
-﻿/*
- * 
- * criacao da class e construtor da classe contrato em C#
+﻿/*Class: Contratos
  * Mario Macedo
  * Maksym Yavorenko
  * a25664@alunos.ipca.pt
@@ -10,6 +8,7 @@
  * */
 
 using Imoveis;
+using RecursosHumanos;
 
 namespace Contratos
 {
@@ -20,67 +19,104 @@ namespace Contratos
     {
         #region Atributos
 
+        private Inquilino inquilino;
         private Imovel imovel;
         private DateTime dataInicio;
         private DateTime dataFim;
-        private string inquilino;
-        private double valorMensal;
+        private int numeroMensalidades;
+        private double valorMensalidade;
+        private double entrada;
 
         #endregion
 
         #region Propriedades
 
+        public double Entrada
+        {
+            get { return entrada; }
+            set { entrada = value; }
+        }   
+        /// <summary>
+        /// Obtém ou define o imóvel associado ao contrato.
+        /// </summary>
         public Imovel Imovel
         {
             get { return imovel; }
             set { imovel = value; }
         }
 
+        /// <summary>
+        /// Obtém ou define a data de início do contrato.
+        /// </summary>
         public DateTime DataInicio
         {
             get { return dataInicio; }
             set { dataInicio = value; }
         }
 
+        /// <summary>
+        /// Obtém ou define a data de fim do contrato.
+        /// </summary>
         public DateTime DataFim
         {
             get { return dataFim; }
             set { dataFim = value; }
         }
 
-        public string Inquilino
+        /// <summary>
+        /// 
+        /// </summary>
+        public Inquilino Inquilino
         {
             get { return inquilino; }
             set { inquilino = value; }
         }
 
-        public double ValorMensal
+        /// <summary>
+        /// Obtém ou define o valor mensal do contrato.
+        /// </summary>
+        public int NumeroMensalidades
         {
-            get { return valorMensal; }
-            set { valorMensal = value; }
+            get { return numeroMensalidades; }
+            set { numeroMensalidades = value; }
+        }
+
+        public double ValorMensalidade
+        {
+            get { return valorMensalidade; }
+            set { valorMensalidade = value; }
         }
 
         #endregion
 
-
+        #region Construtores
 
         /// <summary>
-        /// Construtor da classe Contrato
+        /// 
         /// </summary>
+        /// <param name="cliente"></param>
+        /// <param name="gestor"></param>
         /// <param name="imovel"></param>
-        /// <param name="dataInicio"></param>
-        /// <param name="dataFim"></param>
-        /// <param name="inquilino"></param>
-        /// <param name="valorMensal"></param>
-        #region Construtores
-        public Contrato(Imovel imovel, DateTime dataInicio, DateTime dataFim, string inquilino, double valorMensal)
+        /// <param name="entrada"></param>
+        /// <param name="numeroMensalidades"></param>
+        /// <param name="valorMensalidade"></param>
+        public Contrato(Cliente cliente, Gestor gestor, Imovel imovel, double entrada, int numeroMensalidades, double valorMensalidade)
         {
-            Imovel = imovel;
-            DataInicio = dataInicio;
-            DataFim = dataFim;
-            Inquilino = inquilino;
-            ValorMensal = valorMensal;
+            cliente.RetirarSaldo(entrada);
+
+            Inquilino inquilino = new Inquilino(cliente.Nome, imovel.Local.Endereco, cliente.NIF, cliente.Telefone, cliente.Email);
+
+            imovel.AdicionarInquilino(inquilino);
+
+            this.inquilino = inquilino;
+            this.imovel = imovel;
+            this.dataInicio = DateTime.Now;
+            this.dataFim = DateTime.Now.AddMonths(numeroMensalidades);
+            this.entrada = entrada;
+            this.numeroMensalidades = numeroMensalidades;
+            this.valorMensalidade = valorMensalidade;
         }
+
         #endregion
     }
 }

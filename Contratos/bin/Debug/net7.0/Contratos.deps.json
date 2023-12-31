@@ -8,15 +8,20 @@
     ".NETCoreApp,Version=v7.0": {
       "Contratos/1.0.0": {
         "dependencies": {
-          "Imoveis": "1.0.0"
+          "Imoveis": "1.0.0.0",
+          "Locais": "1.0.0.0",
+          "RecursosHumanos": "1.0.0.0"
         },
         "runtime": {
           "Contratos.dll": {}
         }
       },
-      "Imoveis/1.0.0": {
+      "Imoveis/1.0.0.0": {
         "runtime": {
-          "Imoveis.dll": {}
+          "Imoveis.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Locais/1.0.0.0": {
@@ -27,57 +32,17 @@
           }
         }
       },
+      "RecursosHumanos/1.0.0.0": {
+        "runtime": {
+          "RecursosHumanos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Caracteristica/1.0.0.0": {
         "runtime": {
           "Caracteristica.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Senhorios/1.0.0.0": {
-        "runtime": {
-          "Senhorios.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Clientes/1.0.0.0": {
-        "runtime": {
-          "Clientes.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Gestores/1.0.0.0": {
-        "runtime": {
-          "Gestores.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Despesas/1.0.0.0": {
-        "runtime": {
-          "Despesas.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Recibos/1.0.0.0": {
-        "runtime": {
-          "Recibos.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Servicos/1.0.0.0": {
-        "runtime": {
-          "Servicos.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -91,8 +56,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Imoveis/1.0.0": {
-      "type": "project",
+    "Imoveis/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
@@ -101,37 +66,12 @@
       "serviceable": false,
       "sha512": ""
     },
+    "RecursosHumanos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Caracteristica/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Senhorios/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Clientes/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Gestores/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Despesas/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Recibos/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Servicos/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,12 @@
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\obj\Debug\net7.0\GestaoFicheiros.GeneratedMSBuildEditorConfig.editorconfig
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\obj\Debug\net7.0\GestaoFicheiros.AssemblyInfoInputs.cache
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\obj\Debug\net7.0\GestaoFicheiros.AssemblyInfo.cs
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\obj\Debug\net7.0\GestaoFicheiros.csproj.CoreCompileInputs.cache
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\obj\Debug\net7.0\GestaoFicheiros.sourcelink.json
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\bin\Debug\net7.0\GestaoFicheiros.deps.json
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\bin\Debug\net7.0\GestaoFicheiros.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\bin\Debug\net7.0\GestaoFicheiros.pdb
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\obj\Debug\net7.0\GestaoFicheiros.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\obj\Debug\net7.0\refint\GestaoFicheiros.dll
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\obj\Debug\net7.0\GestaoFicheiros.pdb
+D:\LESI\2ºano\Gestão de rendas\GestaoFicheiros\obj\Debug\net7.0\ref\GestaoFicheiros.dll

@@ -5,3 +5,19 @@
   },
   "compilationOptions": {},
   "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "RecursosHumanos/1.0.0": {
+        "runtime": {
+          "RecursosHumanos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RecursosHumanos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

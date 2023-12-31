@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Imoveis\Imoveis.csproj" />
+    <Reference Include="Imoveis">
+      <HintPath>..\Imoveis\bin\Debug\net7.0\Imoveis.dll</HintPath>
+    </Reference>
+    <Reference Include="Locais">
+      <HintPath>..\Localizacoes\bin\Debug\net7.0\Locais.dll</HintPath>
+    </Reference>
+    <Reference Include="RecursosHumanos">
+      <HintPath>..\RecursosHumanos\bin\Debug\net7.0\RecursosHumanos.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

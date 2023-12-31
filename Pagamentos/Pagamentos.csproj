@@ -7,9 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="DataTempo">
-      <HintPath>..\DataTempo\bin\Debug\net7.0\DataTempo.dll</HintPath>
-    </Reference>
     <Reference Include="RecursosHumanos">
       <HintPath>..\RecursosHumanos\bin\Debug\net7.0\RecursosHumanos.dll</HintPath>
     </Reference>

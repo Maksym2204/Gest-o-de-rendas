@@ -1,61 +1,53 @@
-﻿using Despesas;
-using Recibos;
-using Servicos;
+﻿/* Class: Gestor
+ * Mario Macedo
+ * Maksym Yavorenko
+ * a25664@alunos.ipca.pt
+ * a25989@alunos.ipca.pt
+ * 13-11-2023
+ * 
+ * */
 
 namespace RecursosHumanos
 {
+    /// <summary>
+    /// Classe que representa um gestor.
+    /// </summary>
     public class Gestor : Pessoa
     {
         #region Atributos
 
         private string cargo;
-        private Despesa despesa;
-        private Recibo recibo;
-        private Servico servico;
-
 
         #endregion
 
         #region Propriedades
 
+        /// <summary>
+        /// Obtém ou define o cargo do gestor.
+        /// </summary>
         public string Cargo
         {
             get { return cargo; }
             set { cargo = value; }
         }
-        public Despesa Despesa
-        {
-            get { return despesa; }
-            set { despesa = value; }
-        }
 
-        public Recibo Recibo
-        {
-            get { return recibo; }
-            set { recibo = value; }
-        }
-        public Servico Servico
-        {
-            get { return servico; }
-            set { servico = value; }
-        }
+     
         #endregion
 
         #region Construtor
 
         /// <summary>
-        /// Construtor da classe Gestores
+        /// Construtor para gestor.
         /// </summary>
         /// <param name="nome"></param>
+        /// <param name="nif"></param>
         /// <param name="cargo"></param>
         /// <param name="telefone"></param>
         /// <param name="email"></param>
-        public Gestor(string nome,string nif, string cargo, string telefone, string email, Despesa despesa, Recibo recibo, Servico Servico) : base(nome, nif, telefone, email)
+        public Gestor(string nome, string nif, string cargo, string telefone, string email)
+            : base(nome, nif, telefone, email)
         {
             this.cargo = cargo;
-            this.despesa = despesa;
-            this.recibo = recibo;
-            this.servico = servico;
         }
 
         #endregion

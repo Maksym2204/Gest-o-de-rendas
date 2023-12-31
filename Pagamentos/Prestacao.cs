@@ -1,70 +1,63 @@
-﻿using DataTempo;
+﻿/* Class:Prestacao
+ * Mario Macedo
+ * Maksym Yavorenko
+ * a25664@alunos.ipca.pt
+ * a25989@alunos.ipca.pt
+ * 13-11-2023
+ * 
+ * */
+
 using RecursosHumanos;
 
 namespace Pagamentos
 {
-    public class Prestacao
+    /// <summary>
+    /// Classe que representa uma prestação de pagamento.
+    /// </summary>
+    public class Prestacao : Pagamento
     {
         #region Atributos
-
-        private Data dataPagamento;
-        private double valorPrestacao;
+        private Inquilino inquilino;
 
         #endregion
 
         #region Propriedades
 
-        public double ValorPrestacao
+        public Inquilino Inquilino
         {
-            get { return valorPrestacao; }
-            set { valorPrestacao = value; }
+            get { return inquilino; }
+            set { inquilino = value; }
         }
 
         #endregion
 
-        #region Metodos
+        #region Métodos
 
-        public long DiasDesdeUltimaPrestacao(DateTime diaPagamento)
-        {
-            TimeSpan diferenca = DateTime.Now - diaPagamento;
-            return (long)diferenca.TotalDays;
-        }
-        //public void MultaPrestacaoAtraso(DateTime diferenca)
-        //{
-        //    long NumeroDias = DiasDesdeUltimaPrestacao(diferenca);
-        //    if(NumeroDias > 30)
-        //    {
-        //        Pago = false;
-        //        valorPrestacao += valorPrestacao * 0.1;
-        //    }
-        //}
 
-        public void PagarPrestacao(DateTime diferenca, Inquilino inquilino)
+        /// <summary>
+        /// Efetua o pagamento da prestação.
+        /// </summary>
+        /// <param name="diferenca">A data da última prestação.</param>
+        /// <param name="saldo">O saldo do inquilino.</param>
+        /// <param name="inquilino">O inquilino.</param>
+        public void PagarPrestacao( Inquilino inquilino, double valor)
         {
-            //ValorDaPrestacao(precoBase, );
-            long NumeroDias = DiasDesdeUltimaPrestacao(diferenca);
-            if ( NumeroDias > 30)
-            {
-                inquilino.RetirarSaldo(valorPrestacao);
-            }
-        }
-        public void ValorDaPrestacao(double precoBase, int numeroMensalidades)
-        {
-            valorPrestacao = precoBase / numeroMensalidades;
-
+            inquilino.RetirarSaldo(valor);
         }
 
         #endregion
+
         #region Construtor
 
         /// <summary>
-        /// Construtor da classe Prestacoes
+        /// Construtor da classe Prestacao.
         /// </summary>
+        /// <param name="valor"></param>
         /// <param name="dataPagamento"></param>
-        /// <param name="valorPrestacao"></param>
-        public Prestacao( double valorPrestacao)
+        /// <param name="inquilino"></param>
+        public Prestacao(double valor, DateTime dataPagamento, Inquilino inquilino) : base(valor, dataPagamento)
         {
-            ValorPrestacao = valorPrestacao;
+            this.inquilino = inquilino;
         }
 
         #endregion

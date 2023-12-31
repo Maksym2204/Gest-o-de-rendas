@@ -1,34 +1,36 @@
-﻿namespace Pagamentos
+﻿/* Class: Pagamentos
+ * Mario Macedo
+ * Maksym Yavorenko
+ * a25664@alunos.ipca.pt
+ * a25989@alunos.ipca.pt
+ * 13-11-2023
+ * 
+ * */
+
+using RecursosHumanos;
+
+namespace Pagamentos
 {
- 
-    public class Entrada
+    /// <summary>
+    /// Classe que representa uma entrada de pagamento.
+    /// </summary>
+    public class Entrada : Pagamento
     {
         #region Atributos
 
-        private string clienteNome;
-        private double valor;
-        private DateTime dataPagamento;
+        private Cliente cliente;
 
         #endregion
 
         #region Propriedades
 
-        public string ClienteNome
+        /// <summary>
+        /// Obtém ou define o nome do cliente.
+        /// </summary>
+        public Cliente Cliente
         {
-            get { return clienteNome; }
-            set { clienteNome = value; }
-        }
-
-        public double Valor
-        {
-            get { return valor; }
-            set { valor = value; }
-        }
-
-        public DateTime DataPagamento
-        {
-            get { return dataPagamento; }
-            set { dataPagamento = value; }
+            get { return cliente; }
+            set { cliente = value; }
         }
 
         #endregion
@@ -36,16 +38,14 @@
         #region Construtor
 
         /// <summary>
-        /// Construtor da classe PagamentoEntrada
+        /// Construtor da classe Entrada.
         /// </summary>
-        /// <param name="clienteNome"></param>
-        /// <param name="valor"></param>
-        /// <param name="dataPagamento"></param>
-        public Entrada(string clienteNome, double valor, DateTime dataPagamento)
+        /// <param name="clienteNome">O nome do cliente.</param>
+        /// <param name="valor">O valor da entrada.</param>
+        /// <param name="dataPagamento">A data do pagamento.</param>
+        public Entrada(double valor, DateTime dataPagamento, Cliente cliente):base(valor,dataPagamento)
         {
-            ClienteNome = clienteNome;
-            Valor = valor;
-            DataPagamento = dataPagamento;
+            this.cliente = cliente;
         }
 
         #endregion

@@ -10,14 +10,11 @@
     <Reference Include="Caracteristica">
       <HintPath>..\Caracterização\bin\Debug\net7.0\Caracteristica.dll</HintPath>
     </Reference>
-    <Reference Include="Gestores">
-      <HintPath>..\Gestores\bin\Debug\net7.0\Gestores.dll</HintPath>
-    </Reference>
-    <Reference Include="Inquilinos">
-      <HintPath>..\Inquilinos\bin\Debug\net7.0\Inquilinos.dll</HintPath>
-    </Reference>
     <Reference Include="Locais">
-      <HintPath>..\Localizaçoes\bin\Debug\net7.0\Locais.dll</HintPath>
+      <HintPath>..\Localizacoes\bin\Debug\net7.0\Locais.dll</HintPath>
+    </Reference>
+    <Reference Include="RecursosHumanos">
+      <HintPath>..\RecursosHumanos\bin\Debug\net7.0\RecursosHumanos.dll</HintPath>
     </Reference>
   </ItemGroup>
 

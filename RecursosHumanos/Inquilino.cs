@@ -1,84 +1,87 @@
-﻿using System.Collections;
-using Imoveis;
-using Pagamentos;
-
+﻿/* Class: Inquilino
+ * Mario Macedo
+ * Maksym Yavorenko
+ * a25664@alunos.ipca.pt
+ * a25989@alunos.ipca.pt
+ * 13-11-2023
+ * 
+ * */
 namespace RecursosHumanos
 {
+    /// <summary>
+    /// Classe que representa um inquilino.
+    /// </summary>
     public class Inquilino : Pessoa, ISaldo
     {
         #region Atributos
-        private ArrayList inquilinos = new ArrayList();
+
         private string endereco;
-        private Prestacao prestacao;
-        private TipoImovel tipoImovel;
         private double saldo;
-        private int numeroMensalidades;
+
         #endregion
 
         #region Propriedades
 
-        public int NumeroMensalidades
-        {
-            get { return numeroMensalidades; }
-            set { numeroMensalidades = value; }
-        }
+        /// <summary>
+        /// Obtém ou define o saldo do inquilino.
+        /// </summary>
         public double Saldo
         {
             get { return saldo; }
             set { saldo = value; }
         }
-        public TipoImovel TipoImovel
-        {
-            get { return tipoImovel; }
-            set { tipoImovel = value; }
-        }
 
-        public ArrayList Inquilinos
-        {
-            get { return inquilinos; }
-            set { inquilinos = value; }
-        }
+        /// <summary>
+        /// Obtém ou define o endereço do inquilino.
+        /// </summary>
         public string Endereco
         {
             get { return endereco; }
             set { endereco = value; }
         }
-        public Prestacao Prestacao
-        {
-            get { return prestacao; }
-            set { prestacao = value; }
-        }
 
         #endregion
 
-        #region Metodos
-        public double RetirarSaldo(double valor)
+        #region Métodos
+
+        /// <summary>
+        /// Retira um valor do saldo do inquilino.
+        /// </summary>
+        /// <param name="valor">O valor a ser retirado.</param>
+        /// <returns>O novo saldo após a retirada.</returns>
+        public void RetirarSaldo(double valor)
         {
-            return Saldo -= valor;
+            this.saldo -= valor;
         }
 
-        public double DepositarSaldo(double valor)
+        /// <summary>
+        /// Deposita um valor no saldo do inquilino.
+        /// </summary>
+        /// <param name="valor">O valor a ser depositado.</param>
+        /// <returns>O novo saldo após o depósito.</returns>
+        public void DepositarSaldo(double valor)
         {
-            return Saldo += valor;
+            this.Saldo += valor;
         }
-
 
         #endregion
 
         #region Construtor
 
         /// <summary>
-        /// Construtor da classe Inquilinos
+        /// Construtor da classe Inquilino.
         /// </summary>
-        /// <param name="nome"></param>
-        /// <param name="endereco"></param>
-        /// <param name="telefone"></param>
-        /// <param name="email"></param>
-        /// <param name="dataInicioContrato"></param>
-        public Inquilino(string nome, string endereco,string nif, string telefone, string email, Prestacao prestacao, int numeroMensalidades) : base(nome,nif, telefone, email)
+        /// <param name="nome">O nome do inquilino.</param>
+        /// <param name="endereco">O endereço do inquilino.</param>
+        /// <param name="nif">O NIF do inquilino.</param>
+        /// <param name="telefone">O telefone do inquilino.</param>
+        /// <param name="email">O email do inquilino.</param>
+        /// <param name="numeroMensalidades">O número de mensalidades do inquilino.</param>
+        public Inquilino(string nome, string endereco, string nif, string telefone, string email)
+            : base(nome, nif, telefone, email)
         {
-            this.numeroMensalidades = numeroMensalidades;
-            this.prestacao = prestacao;
+            this.endereco = endereco;
+            this.saldo = 0;
         }
 
         #endregion

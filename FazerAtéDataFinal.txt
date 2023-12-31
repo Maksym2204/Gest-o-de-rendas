@@ -1,0 +1,11 @@
+Por fazer:
+LinQ*
+lamda expressions(talvez)
+Completar metodos e opcoes da class Clientes
+Chamar mais metodos à program
+Rever as classes ainda nao usadas
+Resolver os problemas com a class ficheiro(Alterar para guardar em binario ou ver outra forma de guardar ficheiros)
+Contar historia no program
+Inquilino agora mora lá...
+
+
